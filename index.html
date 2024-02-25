@@ -512,28 +512,24 @@
         </ul>
       </div>
 
-            <!-- footer subscribe -->
-            <div class="footer-subscribe">
-              <p class="p-subscribe">Subscribe</p>
-              <form class="footer-form" name="subscribe">
-                <label class="footer-label">
-                  <input class="form-input" type="email" name="e-mail" placeholder="E-mail" />
-                </label>
+        <!-- footer subscribe -->
+        <div class="footer-subscribe">
+          <p class="p-subscribe">Subscribe</p>
+          <form class="footer-form" name="subscribe">
+            <label class="footer-label">
+              <input class="form-input" type="email" name="e-mail" placeholder="E-mail" />
+            </label>
 
-                  <button class="form-button" type="submit" name="subscribe">
-                    Subscribe
-                    <svg class="subscribe-icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-Frame"></use>
-                    </svg>
-                  </button>
-                </label>
-              </form>
-            </div>
-            
-
-
-      </div>
-  </footer>
+              <button class="form-button" type="submit" name="subscribe">
+                Subscribe
+                <svg class="subscribe-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-Frame"></use>
+                </svg>
+              </button>
+          </form>
+        </div>
+  </div>
+</footer>
 
 
 
@@ -551,11 +547,11 @@
 
 
        <!-- input name-->
-
-        <label class="modal-form-field">
-          <span class="modal-form-input-desc"> Name </span>
+       <div class="form-item-first">
+        <label class="modal-form-field"></label>
+          <div class="modal-form-input-desc"> Name </div>
           
-          <span class="modal-form-input-wrapper">
+          <div class="modal-form-input-wrapper">
           <input type="text"  
                  name="user_name" 
                  class="modal-form-input" />
@@ -564,14 +560,14 @@
             <use href="./images/icons.svg#icon-person">
             </use>
           </svg>
-        </span>
-        </label>
+        </div>
+ 
 
         <!-- input phone-->
-        <label class="modal-form-field">
-          <span class="modal-form-input-desc"> Phone </span>
-         
-          <span class="modal-form-input-wrapper">
+       
+          <div class="modal-form-input-desc"> Phone </div>
+          <label class="modal-form-field"></label>
+          <div class="modal-form-input-wrapper">
           <input 
                 type="tel" 
                 name="user_phone" 
@@ -581,14 +577,14 @@
                <use href="./images/icons.svg#icon-phone">
                </use>
                 </svg> 
-          </span>     
-       </label>
+          </div>     
+
 
         <!-- input email-->
-        <label class="modal-form-field">
-          <span class="modal-form-input-desc"> Email </span>
-         
-          <span class="modal-form-input-wrapper">
+
+          <div class="modal-form-input-desc"> Email </div>
+          <label class="modal-form-field"></label>
+          <div class="modal-form-input-wrapper">
           <input 
                 type="text" 
                 class="modal-form-input" />
@@ -596,17 +592,19 @@
                   <use href="./images/icons.svg#icon-email">
                   </use>
                    </svg>     
-           </span>
-         </label>
+                  </div>
+       </div>
+   
         
         <!-- input comment-->
-        <label class="modal-form-field">
-          <span class="modal-form-input-desc"> Comment </span>
+
+          <div class="modal-form-input-desc"> Comment </div>
+          <label class="modal-form-field"></label>
          <textarea name="user_message" 
                    class="modal-form-message" 
                    placeholder="Text input"
         ></textarea>
-        </label>
+   
 
          <!-- input checkbox-->
         <input 
@@ -626,9 +624,5 @@
         
         </div>
       </div>
-
-
-
-
   </body>
 </html>
